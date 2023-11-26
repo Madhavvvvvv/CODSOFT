@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'sans-serif';
+}
+
+body{
+    color: #ededed;
+    background: #081b29; 
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight:600 ;
+    cursor: default;
+}
+
+.navbar a{
+    display: inline-block;
+    font-size:25px ;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color: #0ef;
+}
+
+.Home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-image:'./Virat kohli.jpg';
+    background: black no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0 ;
+}
+
+.Home-content img{
+    height: 75%;
+    position:absolute;
+    left: 80%;
+    bottom: 7%;
+    transform: translateX(-50%);
+    transition: bottom;
+}
+
+.Home-content{
+    max-width: 600px;
+    color: #fff;
+}
+.Home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.Home-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border:2px solid #0ef ;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0 ;
+}
+
+.home-sci a:hover{
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background:#0ef ;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing:1px ;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-box:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan
+}
+
+.About{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    background: black;
+    height: 100vh;
+    color: #fff;
+}
+
+.About-img img{
+    height: 65%;
+    position:absolute;
+    left: 10%;
+}
+
+.About-text h2{
+    font-size: 60px;
+}
+
+.btn-boxx{
+    display: inline-block;
+    padding: 12px 28px;
+    background:#0ef ;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing:1px ;
+    text-decoration: none;
+    font-weight: 600;
+    width: 30%;
+    margin-left: 170%;
+}
+
+.btn-boxx:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan
+}
+
+.container{
+    padding: 7px;
+}
+
+.sub-title{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 60px;
+}
+
+.sub-title span{
+    text-align: center;
+    font-size: 60px;
+    color: #0ef;
+}
+
+.Skills{
+   background: black;
+   color: #fff;
+}
+
+
+.Skills div i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.Skills div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.read{
+    display: inline-block;
+    padding: 10px 25px;
+    background:#0ef ;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing:1px ;
+    text-decoration: none;
+    font-weight: 400;
+}
+.main-text{
+    padding-top: 130px;
+    background: black;
+    height: 130vh;
+}
+.main-text h2{
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    color: white;
+}
+
+.main-text h2 span{
+    color: #0ef;
+}
+
+.Project-Content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(359px,auto));
+}
+
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.row img{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer{
+    color: #fff;
+}
+
+.layer h5{
+    color:#0ef
+}
+
+.Resume{
+    background: black;
+    color: white;
+    height: 70vh;
+}
+
+.btn-boxxx{
+    display: inline-block;
+    padding: 12px 28px;
+    background:#0ef ;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing:1px ;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+.btn-boxxx:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan
+}
+
+.Resume h1{
+    color: #0ef;
+}
+
+.Contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    background: black;
+}
+
+.Contact-text h2{
+    color: #0ef;
+}
+
+.Contact-text h4{
+    margin: 15px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Contact-text p{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+.Contact-list{
+    margin-bottom: 3rem;
+    color: #fff;
+
+}
+
+.Contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.Contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.Contact-list i{
+    display: inline-block;
+    color: #0ef;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+
+.Contact-list li i:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: #0ef;
+}
+
+.Contact-icons i{
+     display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border:2px solid #0ef ;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0 ;
+}
+
+.Contact-icons i:hover{
+    background: #0ef;
+    color:  #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+.Contact-form form{
+    position: relative;
+}
+
+.Contact-form form input,form textarea{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: #555557;color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+.Contact-form textarea{
+    resize: none;
+    height: 220px;
+}
+
+.Contact-form form .send{
+    display: inline-block;
+    padding: 10px 25px;
+    background:#0ef ;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing:1px ;
+    text-decoration: none;
+    font-weight: 400;
+}
+.last-text{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: black;
+    color: #fff;
+}
